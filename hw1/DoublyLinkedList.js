@@ -79,28 +79,28 @@ export class DoublyLinkedList {
   }
 }
 
-var list = DoublyLinkedList();
+const list = new DoublyLinkedList();
 
-list.addEnd(2);
-list.addEnd(3);
-list.addStart(1);
-list.addEnd(4);
-list.addEnd(5);
-list.addEnd(6);
+// list.addEnd(2);
+// list.addEnd(3);
+// list.addStart(1);
+// list.addEnd(4);
+// list.addEnd(5);
+// list.addEnd(6);
 
-console.log('--------------');
-console.log(list.first.value); // 1
-console.log(list.last.value); // 6
-console.log(list.first.next.value); // 2
-console.log(list.first.next.prev.value); // 1
+// console.log('--------------');
+// console.log(list.first.value); // 1
+// console.log(list.last.value); // 6
+// console.log(list.first.next.value); // 2
+// console.log(list.first.next.prev.value); // 1
 
-list.removeEnd();
-list.removeStart();
-list.removeEnd();
-list.removeStart();
+// list.removeEnd();
+// list.removeStart();
+// list.removeEnd();
+// list.removeStart();
 
-console.log('--------------');
-console.log(list.first.value); // 3
-console.log(list.last.value); // 4
-console.log(list.first.next.value); // 4
-console.log(list.first.next.prev.value); // 3
+// console.log('--------------');
+// console.log(list.first.value); // 3
+// console.log(list.last.value); // 4
+// console.log(list.first.next.value); // 4
+// console.log(list.first.next.prev.value); // 3
