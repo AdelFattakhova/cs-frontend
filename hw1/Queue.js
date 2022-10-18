@@ -1,6 +1,6 @@
 import { DoublyLinkedList } from "./DoublyLinkedList.js";
 
-class Queue {
+export class Queue {
   constructor() {
     this.list = new DoublyLinkedList();
     this.head = null;
