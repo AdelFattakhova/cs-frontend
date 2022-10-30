@@ -1,11 +1,5 @@
 # Computer Science in Frontend course
 
-## 1. Data and data types. Typing in programming languages. Fundamental data structures.
-
-### Tasks
-1. Implement a Doubly Linked List
-   - make this list iterable
-2. Implement a Queue based on a Linked List
-3. Implement a Deque
-4. Implement a Stack based on a fixed-length Array
-5. Implement a Structure based on an Array
+## [**Lecture 1.** Data and data types. Typing in programming languages. Fundamental data structures.](./hw1)
+## **Lecture 2.** Processor and memory. Multitasking and the role of the OS. Program memory segments. Memory management. (*no coding hometask*)
+## [**Lecture 3.** The most important data structures: vector, hash table, search trees.](./hw3)
