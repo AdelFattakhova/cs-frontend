@@ -30,22 +30,3 @@ class Stack {
     return removed;
   }
 }
-
-// const stack = new Stack();
-// const stack = new Stack(2);
-// const stack = new Stack(3);
-const stack = new Stack(5);
-
-stack.push(10);
-stack.push(11);
-stack.push(12);
-
-console.log(stack.head);  // 12
-
-console.log(stack.pop()); // 12
-
-console.log(stack.head);  // 11
-
-console.log(stack.pop()); // 11
-console.log(stack.pop()); // 10
-console.log(stack.pop()); // Exception

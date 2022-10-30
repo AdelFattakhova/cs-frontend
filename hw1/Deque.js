@@ -21,17 +21,3 @@ class Deque extends Queue {
     throw new Error(removed);
   }
 }
-
-const deque = new Deque();
-
-deque.addEnd(10);
-deque.addStart(11);
-deque.addEnd(12);
-
-console.log(deque.removeEnd());   // 12
-console.log(deque.head); // 11
-console.log(deque.tail); // 10
-console.log(deque.removeStart()); // 11
-console.log(deque.head); // 10
-console.log(deque.removeEnd());   // 10
-console.log(deque.removeEnd());   // Exception

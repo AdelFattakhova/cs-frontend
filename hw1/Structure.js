@@ -18,12 +18,3 @@ class Structure {
     return this.struct[key];
   }
 }
-
-const jackBlack = new Structure(['name', 'lastName', 'age']);
-
-jackBlack.set('name', 'Jack');
-jackBlack.set('lastName', 'Black');
-jackBlack.set('age', 53);
-console.log(jackBlack);
-
-console.log(jackBlack.get('name')); // 'Jack'
