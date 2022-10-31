@@ -1,6 +1,6 @@
-import { DoublyLinkedList } from "./DoublyLinkedList/DoublyLinkedList.js";
+import DoublyLinkedList from "../DoublyLinkedList/DoublyLinkedList.js";
 
-export class Queue {
+export default class Queue {
   constructor() {
     this.list = new DoublyLinkedList();
     this.head = null;
