@@ -1,4 +1,4 @@
-class DoublyLinkedList {
+export default class DoublyLinkedList {
   constructor() {
     this.first = null;
     this.last = null;
@@ -81,5 +81,3 @@ class DoublyLinkedList {
     }
   }
 }
-
-module.exports = DoublyLinkedList;

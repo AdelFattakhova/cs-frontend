@@ -1,4 +1,4 @@
-const DoublyLinkedList = require('./DoublyLinkedList');
+import DoublyLinkedList from './DoublyLinkedList';
 
 describe('doubly linked list', () => {
   test('should get the first element', () => {
