@@ -23,7 +23,9 @@ describe('doubly linked list', () => {
     list.addEnd(2);
     list.addEnd(3);
 
+    expect(list.first.value).toBe(1);
     expect(list.last.value).toBe(3);
+    expect(list.last.prev.value).toBe(2);
   });
 
   test('should add new node to the beginning', () => {
@@ -31,8 +33,10 @@ describe('doubly linked list', () => {
     list.addStart(1);
     list.addStart(2);
     list.addStart(3);
-
+    
     expect(list.first.value).toBe(3);
+    expect(list.first.next.value).toBe(2);
+    expect(list.last.value).toBe(1);
   });
 
   test('should remove node from the start', () => {

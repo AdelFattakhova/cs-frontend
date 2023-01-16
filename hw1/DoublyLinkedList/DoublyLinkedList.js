@@ -38,15 +38,17 @@ export default class DoublyLinkedList {
 
   addStart(value) {
     const newElement = {
-      value, 
+      value,
       next: this.first,
       prev: null,
     }
 
-    if (this.first !== null) {
+    if (this.first === null) {
+      this.last = newElement;
+    } else {
       this.first.prev = newElement;
     }
-
+                               
     this.first = newElement;
   }
 
